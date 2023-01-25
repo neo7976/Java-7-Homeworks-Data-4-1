@@ -9,7 +9,7 @@ import java.util.Optional;
 @Repository
 public class PersonRepositoryImp {
 
-    PersonRepository personRepository;
+    private final PersonRepository personRepository;
 
     public PersonRepositoryImp(PersonRepository personRepository) {
         this.personRepository = personRepository;
