@@ -5,3 +5,12 @@ GET http://localhost:8081/persons/by-city?city=MOSCOW
 ###
 GET http://localhost:8081/persons/by-city?city=SPB
 
+###
+GET http://localhost:8081/persons/by-age?age=34
+
+###
+GET http://localhost:8081/persons/by-name&surname?name=Иван&surname=Корнеев
+
+###
+GET http://localhost:8081/persons/by-name&surname?name=Игорь&surname=Козлов
+
