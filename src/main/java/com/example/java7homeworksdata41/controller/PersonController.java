@@ -12,7 +12,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/persons")
 public class PersonController {
-    PersonService personService;
+    private final PersonService personService;
 
     public PersonController(PersonService personService) {
         this.personService = personService;
